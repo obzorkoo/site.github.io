@@ -1,0 +1,541 @@
+body {
+    width:1440px;
+    margin:auto;   
+    background: #FEFEFE;
+}
+header {
+    margin-left:60px;
+}
+/* First floor (label + navigation)*************************************************** */
+.uptext {
+    width: 1200;
+    margin-right:205px;
+    display:flex;
+    justify-content: space-between;
+    vertical-align: top;
+}
+/*Label*/
+.Label {   
+    height:34px;
+    margin-top: 49px;
+    font-family: Arial, "Averta Demo PE Cutted Demo";
+    font-weight:700px;
+}
+.Studio {
+    font-weight:400;
+}
+/*Navigation row*/
+.nav {
+    margin-bottom: 0px;
+    margin-top: 49px;
+    width:645px;
+    display:grid;
+    grid-template-columns:1fr 97px 1fr 1fr 1fr 1fr;
+    column-gap: 60px;
+    vertical-align: top;   
+}
+h3 {
+    font-family: Arial, "Averta Demo PE Cutted Demo";
+    font-size:16px;
+    font-weight: 400px;
+}
+
+/* Second Floor (content block + photo + decor)*************************************** */
+.SecondFloor {
+    display:flex;
+    justify-content: space-between;
+}
+.LeftBlock {
+    width:471px;
+    height:265px;
+    margin-top:123px;
+}
+/*A Digital Product Agency*/
+.big {
+    width:462px;
+    height:49px;
+    font-family: "Averta Demo PE Cutted Demo";
+    font-size:40px;
+    font-weight:700;
+    line-height:49px;
+}
+/*Text in left block*/
+.small {
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #565656;
+}
+/*Blue button*/ 
+.ContactNow {
+    z-index: 3;
+    position:absolute;
+    width:215px;
+    height:65px;
+    margin-top:33px;
+    display:flex;
+    justify-content: center;
+    background: #2639ED;
+    border-radius:60px;
+}
+/*Contact Now*/
+.ContactText {
+    z-index: 2;
+    width: 135px;
+    height: 25px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color:white;
+}
+/*Header's photo in right area*/
+.photo1 {
+    width:830px;
+    margin-right:120px;
+    margin-top:33px;
+}
+/*Blue button's decor*/
+.Ornament {
+    z-index: 1;
+    position: absolute;
+    width: 404px;
+    height: 157px;
+    left: 64px;
+    top: 449px;
+    margin-left:176px;
+    margin-top: 50px;
+
+}
+
+/* Third floor (content block + client's lables)*************************************** */
+
+/*Our Clients*/
+.OurClient {
+    position: absolute;
+    width: 189px;
+    height: 49px;
+    left: 120px;
+    top: 764px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight:bold;
+    font-size: 40px;
+    line-height: 49px;
+    margin-left:180px;
+}
+/*Our Client's text*/
+.small1 {
+    position: absolute;
+    width: 336px;
+    height: 58px;
+    left: 120px;
+    top: 830px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    margin-left:180px;
+    color: #757575;
+}
+/*Clients lables*/
+.Clients {
+    width:1000px;
+    position: absolute;
+    top:487px;
+    left:530px;
+    margin-left:60px;
+}
+/*Four Floor*/
+.BlueBackground {
+    z-index: 2;
+    position: absolute;
+    width: 1047px;
+    height: 619px;
+    left: 393px;
+    top: 1122px;
+    background: #F4F9FF;
+    border-radius: 150px 0px 0px 0px;
+    margin-left:180px;
+}
+.YellowBackground {
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    left: 200px;
+    top: 1290px;
+    background: #FFF5DB;
+    border-radius: 0px 0px 100px 0px;
+    transform: rotate(-180deg);
+    margin-left:60px;
+}
+.HowCan {
+    z-index: 4;
+    position: absolute;
+    width: 358px;
+    height: 98px;
+    left: 121px;
+    top: 1310px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+    margin-left:180px;
+}
+.HowCanText {
+    z-index: 4;
+    position: absolute;
+    width: 396px;
+    height: 52px;
+    left: 120px;
+    top: 1465px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #565656;
+    margin-left:180px;
+}
+.WhiteBackground1 {
+    z-index: 4;
+    box-sizing: border-box;
+    position: absolute;
+    width: 308px;
+    height: 379px;
+    left: 607px;
+    top: 1061px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    margin-left:180px;
+}
+.WhiteBackground2 {
+    z-index: 4;
+    box-sizing: border-box;
+    position: absolute;
+    width: 308px;
+    height: 379px;
+    left: 949px;
+    top: 982px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    margin-left:180px;
+}
+.WhiteBackground3 {
+    z-index: 4;
+    box-sizing: border-box;
+    position: absolute;
+    width: 308px;
+    height: 379px;
+    left: 607px;
+    top: 1470px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    margin-left:180px;
+}
+.WhiteBackground4 {
+    z-index: 4;
+    box-sizing: border-box;
+    position: absolute;
+    width: 308px;
+    height: 379px;
+    left: 949px;
+    top: 1391px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    margin-left:180px;
+}
+.BusinessIdea {
+    z-index: 5;
+    position:absolute;
+    left: 630px;
+    top: 1085px;
+    margin-left:180px;
+}
+.Financial {
+    z-index: 5;
+    position:absolute;
+    left:975px;
+    top:1005px;
+    margin-left:180px;
+}
+.Development {
+    z-index: 5;
+    position:absolute;
+    left:630px;
+    top:1495px;
+    margin-left:180px;
+}
+.Market {
+    z-index: 5;
+    position:absolute;
+    left:975px;
+    top:1422px;
+    margin-left:180px;
+}
+.RedCircle {
+    z-index: 1;
+    box-sizing: border-box;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 1177px;
+    top: 1693px;
+    border: 8.8px solid #FF007A;
+    border-radius: 50%;
+    margin-left:180px;
+}
+.Ornament2 {
+    position: absolute;
+    left:235px;
+    top:1600px;
+    margin-left:60px;
+}
+
+/*Fifth Floor*/
+.Video {
+    position: absolute;
+    top:1820px;
+    left:20px;
+    margin-left:60px;
+}
+.GreatDigital {
+    z-index: 5;
+    position: absolute;
+    width: 468px;
+    height: 98px;
+    left: 789px;
+    top: 2050px;
+    font-family: 'Averta Demo PE Cutted Demo', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+    margin-left:180px;
+}
+.GreatDigitalBG {
+    z-index: 1;
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    left: 750px;
+    top: 2053px;
+    background: #EFF1FF;
+    border-radius: 0px 0px 100px 0px;
+    margin-left:180px;
+}
+.GreatDigitalText {
+    z-index: 2;
+    position: absolute;
+    width: 532px;
+    height: 104px;
+    left: 788px;
+    top: 2190px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #565656;
+    margin-left:180px;
+}
+.WhatOur {
+    position: absolute;
+    width: 485px;
+    height: 49px;
+    left: 477px;
+    top: 2528px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+    margin-left:180px;
+}
+.WhatOurText {
+    position: absolute;
+    width: 588px;
+    height: 29px;
+    left: 426px;
+    top: 2595px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #757575;
+    margin-left:180px;
+}
+
+/*Sixth Floor*/
+.Portrait {
+    position: absolute;
+    top:2696px;
+    left:95px;
+    margin-left:144px;
+}
+.MatthewPaul {
+    position: absolute;
+    width: 153px;
+    height: 30px;
+    left: 573px;
+    top: 2810px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    margin-left:180px;
+}
+.MatthewPaulText {
+    position: absolute;
+    width: 412px;
+    height: 78px;
+    left: 573px;
+    top: 2865px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #565656;
+    margin-left:180px;
+}
+.SixthFloorEclipse1 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 573px;
+    top: 2999px;
+    background: #2639ED;
+    margin-left:120px;
+    border-radius:50%;
+    margin-left:180px;
+}
+.SixthFloorEclipse2 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 615px;
+    top: 2999px;
+    background: #E7F0FC;
+    margin-left:180px;
+    border-radius:50%;
+}
+.SixthFloorEclipse3 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 657px;
+    top: 2999px;
+    background: #E7F0FC;
+    margin-left:180px;
+    border-radius:50%;
+}
+.SixthFloorEclipse4 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 699px;
+    top: 2999px;
+    background: #E7F0FC;
+    margin-left:180px;
+    border-radius:50%;
+}
+.SixthFloorEclipse5 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 741px;
+    top: 2999px;
+    background: #E7F0FC;
+    margin-left:180px;
+    border-radius:50%;
+}
+.Collage {
+    position:absolute;
+    top:2730px;
+    left:1160px;
+}
+
+/*Seven floor*/
+.BGyellow {
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    left: 200px;
+    top: 3446px;
+    background: #FFF5DB;
+    border-radius: 0px 0px 100px 0px;
+    transform: rotate(90deg);
+    margin-left:60px;
+}
+.BGlightblue {
+    position: absolute;
+    width: 1197px;
+    height: 292px;
+    left: 120px;
+    top: 3293px;
+    background: #F4F9FF;
+    border-radius: 75px;
+    margin-left:180px;
+}
+.Subscribe {
+    position: absolute;
+    width: 386px;
+    height: 49px;
+    left: 212px;
+    top: 3371px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+    margin-left:180px;
+}
+.UnderSubscribe {
+    position: absolute;
+    width: 588px;
+    height: 29px;
+    left: 212px;
+    top: 3445px;
+    font-family: 'Averta Demo PE Cutted Demo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #757575;
+    margin-left:180px;
+}
+.SubscribeCollage {
+    position: absolute;
+    top:3218px;
+    left:814px;
+}
+
+/*Footer*/
+.footer {
+    position: absolute;
+    left: 120px;
+    top: 3731px;
+    margin-left:140px;
+}
